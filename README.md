@@ -13,7 +13,9 @@ This schematic is identical to the schematic at SourceForge.  I intend (and hope
 
 First, of course, there's the change that drove the whole redesign--the footprint for D1 now actually fits the specified diode.  I've also replaced most of the places where pin headers had been used for off-board connections (e.g., for the stepper, the pushbuttons, the display, etc.) and replaced them with JST-XH connectors.  These provide some friction to prevent connections from coming loose inadvertently, and also polarize the connections (so, e.g., you can't plug in a LED backward).
 
-While the board size is similar to the original, it is not identical, and it will not fit in the 3D-printed case design that's posted on SourceForge.  As time permits, I'll try to prepare a case design that will work with this.
+
+# Enclosure
+While the board size is similar to the original, it is not identical, and it will not fit in the 3D-printed case design that's posted on SourceForge.  I've designed an enclosure that will fit this board; STLs and STEP files are in the `Enclosure` directory.
 
 # Board Images
 ![Front PCB image](myDewControllerPro-front.png)
