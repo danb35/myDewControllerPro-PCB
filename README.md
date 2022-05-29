@@ -9,9 +9,9 @@ Unfortunately, the Gerbers there have a few issues, most notably that the footpr
 To address this, I re-drew the schematic and PCB layout in KiCad 6.0.  [KiCad](https://www.kicad.org/) is free, open source electronics design software, so you can download it to edit these files as desired.
 
 # Design changes
-This schematic is identical to the schematic at SourceForge.  I intend (and hope) that the schematic will be easier to read and follow, but there should not be any changes in the components or how they're connected.  Most of the reference designators (i.e., R3, C2, etc.) are identical, but KiCad has changed some of the semiconductors.  But I've made a few changes to the board layout.
+This schematic is identical to the schematic at SourceForge.  I intend (and hope) that the schematic will be easier to read and follow, but there should not be any changes in the components or how they're connected.  Most of the reference designators (i.e., R3, C2, etc.) are identical, but KiCad has changed some of the semiconductors.  I have, however, made a few changes to the board layout.
 
-First, of course, there's the change that drove the whole redesign--the footprint for D1 now actually fits the specified diode.  I've also replaced most of the places where pin headers had been used for off-board connections (e.g., for the stepper, the pushbuttons, the display, etc.) and replaced them with JST-XH connectors.  These provide some friction to prevent connections from coming loose inadvertently, and also polarize the connections (so, e.g., you can't plug in a LED backward).
+First, of course, there's the change that drove the whole redesign--the footprint for D1 now actually fits the specified diode.  I've also replaced most of the places where pin headers had been used for off-board connections (e.g., for the pushbuttons, the display, etc.) with JST-XH connectors.  These provide some friction to prevent connections from coming loose inadvertently, and also polarize the connections (so, e.g., you can't plug in a LED backward).
 
 # Bill of Materials
 The bill of materials is not appreciably different from the upstream project, but it's now included in this repo, both as an OpenDocument Spreadsheet file and as a PDF.
@@ -25,6 +25,8 @@ While the board size is similar to the original, it is not identical, and it wil
 
 # Ordering
 I don't sell these boards; you can have them made by any PCB fab you choose.  To do so, simply download Gerber/myDewControllerPro.zip from this repo, upload it to your fab of choice, and have at it.  If you don't have a fab of choice, consider the two linked below, in which I have no financial interest (i.e., I'm not an affiliate, partner, or anything else; I don't make anything from your purchase of these boards--I'm just a customer of both services).
+
+To order from JLCPCB, or most other PCB fabs, download the .zip file from the `Gerbers` directory.  You can then upload it to your preferred vendor to price and order your PCBs.
 
 ## OSHPark
 OSHPark are an American company known for high-quality boards.  They'll produce three copies of your design for $5 per square inch, in purple, with gold plating.  This cost is often higher than the Chinese fabs, but they don't charge shipping, and you don't have to wait for shipping for China.  This board costs about $62 shipped for three copies as of this writing.  You can order boards using this link:
